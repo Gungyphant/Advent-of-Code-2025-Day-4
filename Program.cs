@@ -119,16 +119,6 @@ namespace AOC2025Day4
         {
             string file = File.ReadAllText(@"../../../input.txt");
             Console.WriteLine(PartOne(file));
-            Console.WriteLine(PartTwo(@"..@@.@@@@.
-@@@.@.@.@@
-@@@@@.@.@@
-@.@@@@..@.
-@@.@@@@.@@
-.@@@@@@@.@
-.@.@.@.@@@
-@.@@@.@@@@
-.@@@@@@@@.
-@.@.@@@.@."));
             Console.WriteLine(PartTwo(file));
         }
     }
